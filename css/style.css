@@ -1,0 +1,230 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* header */
+header{
+    position: relative;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 53px;
+    background: #212121;
+}
+
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    margin: 0;
+    list-style: none;
+}
+.menu_item{
+    border-right: 1px dashed #000000;
+    padding-right: 28px;
+
+}
+.menu_link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    
+}
+
+.subheader{
+    margin-top: 53px;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+    
+}
+
+.subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.subheader_oficial{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: .5;
+    margin-top: 8px;
+}
+
+.subheader_call{
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.subheader_phone{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader_btn{
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* promo */
+
+.promo{
+    min-height: 799px;
+    background:url(../image/bg/uber_bg.jpg) center center/cover no-repeat;
+    text-align: center;
+    padding: 151px 0 186px 0;
+}
+
+.promo_header{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.promo_subheader{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;  
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+
+}
+
+
+.promo_descr{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.promo_btn{
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* causes */
+
+.causes{
+    min-height: 767px;
+    margin: 18px 43px 64px 33px;
+}
+
+.label{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+}
+
+.title{
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+
+}
+
+.causes_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0 27px 0;
+   
+}
+.causes_descr {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.causes_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    
+}
+
+
+.causes_head{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+
+}
+
